@@ -1,0 +1,7 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Xin chào", "Chào bạn", "Hello", "Xin chao"],
+         "responses": ["Xin chào, Tụi mình có thể giúp gì bạn không ạ?"],
+         "context_set": ""
+        }]
+}

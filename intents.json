@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Xin chào", "Chào bạn", "Hello", "Xin chao"],
+         "responses": ["Xin chào, Tụi mình có thể giúp gì bạn không ạ?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "Goodbye", "Bai"],
+         "responses": ["Cảm ơn bạn đã quan tâm đến cây xanh."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Cảm ơn", "Cam on"],
+         "responses": ["Rất vui vì đã giúp đỡ được bạn. Nếu bạn muốn biết thêm thông tin gì thì liên hệ với chúng tôi nhé."]
+        },
+        {"tag": "tree",
+         "patterns": ["Cây che bóng mát phổ biến hiện nay", "Cây được trồng nhiều trên các vỉa hè", "Cây trong trên đường phố", "Cây che bóng mát", "Cay che bong mat", "Cay via he" ],
+         "responses": ["Cảm ơn bạn đã quan tâm, hiện nay trên có các loại cây được ưa chuộng để lấy bóng mát như: Cây sao đen, cây long não, cây bằng lăng, cây lộc vừng, Cây giáng hương, cây phượng, cây dầu rái,..."]
+        },
+        {"tag": "Phuong",
+         "patterns": ["Cây phượng là cây gì", "Thông tin về cây Phượng", "Cây phượng", "Cay phuong" ],
+         "responses": ["Phượng hay phượng vĩ là loài cây sinh trưởng và phát triển trong môi trường rừng nhiệt đới nguyên sinh hoặc những khu vực có khí hậu cận nhiệt đới. Ngoài giá trị là cây cảnh, Phượng còn có tác dụng như một loài cây tạo bóng râm trong điều kiện nhiệt đới, do thông thường nó có thể cao tới một độ cao vừa phải (khoảng 10 m-15m, mặc dù đôi khi có thể cao tới 20 m) nhưng có tán lá tỏa rộng và các tán lá dày đặc của nó tạo ra những bóng mát. Trong những khu vực với mùa khô rõ nét thì nó rụng lá trong thời kỳ khô. Cánh hoa của phượng vĩ lớn, với 4 cánh hoa tỏa rộng màu đỏ tươi hay đỏ hơi cam, dài tới 8 cm, còn cánh hoa thứ năm mọc thẳng, cánh hoa này lớn hơn một chút so với 4 cánh kia và lốm đốm màu trắng/vàng hoặc cam/vàng (cũng có khi trắng/đỏ)."]
+        },
+        {"tag": "Banglang",
+         "patterns": ["Cây bằng lăng là cây gì", "Thông tin về cây bằng lăng", "Cây bằng lăng", "Cay bang lang" ],
+         "responses": ["Bằng lăng nước hay đơn giản là bằng lăng. Loài này có nguồn gốc từ vùng nhiệt đới Nam Á, hiện có nhiều ở Đông Nam Á, Ấn Độ và các vùng nhiệt đới khác. Thân cây thẳng và khá nhẵn nhụi. Lá màu xanh lục, dài từ 8 đến 15 cm, rộng từ 3 đến 7 cm, hình oval hoặc elip, rụng theo mùa. Hoa màu tím hoặc tím nhạt, mọc thành chùm dài từ 20 đến 40 cm, thường thấy vào giữa mùa hè. Mỗi bông hoa có 6 cánh, mỗi cánh dài chừng 2 đến 3,5 cm. Quả lúc tươi màu tím nhạt pha xanh lục, mềm. Quả già có đường kính 1,5 đến 2 cm, khô trên cây."]
+        },
+        {"tag": "Gianhuong",
+         "patterns": ["Cây giáng hương là cây gì", "Thông tin về cây giáng hương", "Cây giáng hương", "Cay giang huong" ],
+         "responses": ["Giáng/dáng hương hay giáng/dáng hương quả to, giáng/dáng hương căm-pôt, giáng/dáng hương chân, song lã có danh pháp hai phần là Pterocarpus macrocarpus. Đây là một loài cây thuộc họ Đậu, là loài bản địa của Đông Nam Á, bao gồm đông bắc Ấn Độ, Myanma, Lào, Thái Lan và Việt Nam. Tại Việt Nam, cây này phân bố ở Tây Nguyên và Đông Nam Bộ. Giáng hương thường mọc ở độ cao từ 100-800m so với mực nước biển, cây chịu được nhiêt độ tối cao tuyệt đối 37,7-44,4oC và tối thấp tuyệt đối 4,4-11,2oC, mọc tốt ở vùng có lượng mưa 1270–1520 mm/năm. Ở Việt Nam cây này phân bố ở các tỉnh Tây Nguyên, Nam Bộ như Đắk Lắk, Gia Lai, Kon Tum, Phú Yên, Đồng Nai, Tây Ninh. Mọc trên nhiều loại đất như đất xám, đất đỏ bazan."]
+        },
+        {"tag": "Saoden",
+         "patterns": ["Cây sao đen là cây gì", "Thông tin về cây sao đen", "Cây sao den", "cay sao đen" ],
+         "responses": ["Sao đen (danh pháp hai phần: Hopea odorata) là loài thực vật thuộc chi Sao, họ Dầu. Cây gỗ lớn thân thẳng, thuôn dài, cao từ 20 – 30m. Thân cây có những lằn nứt dọc theo sớ, màu đen (lõi gỗ bên trong có màu hơi đỏ). Tán lá rậm hình chóp, cành nhánh to, dài, mọc thẳng đứng. Lá hình trái xoan, thuôn, đáy tròn và đỉnh nhọn ngắn. Lá dài 7 – 17 cm, rộng 5 – 9 cm. Mặt trên lá vàng và có màu xanh bóng, mặt dưới mịn. Gân chính rõ, với 7 – 10 đôi gân phụ. Các nách gân của đáy lá có các túm lông nhỏ. Hoa nhỏ mọc thành chùm khoảng 11 – 12 nhánh, mỗi nhánh có từ 4–6 hoa nhỏ màu trắng như hình ngôi sao. Quả có 2 cánh do lá dài và có lông rất mịn, dài 3–6 cm rộng 0,5–0,7 cm. Lúc non có màu xanh nhạt, lúc già có màu nâu."]
+        },
+        {"tag": "Longnao",
+         "patterns": ["Cây long não là cây gì", "Thông tin về cây long não", "Cây long não", "cay long nao" ],
+         "responses": ["Long não hay còn gọi là dã hương (danh pháp hai phần: Cinnamomum camphora) là một loại cây thân gỗ, lớn và thường xanh, có thể cao tới 20–30 m. Các lá nhẵn và bóng, bề mặt như sáp và có mùi long não khi bị vò nát trong tay. Về mùa xuân nó sinh ra các lá màu xanh lục nhạt với nhiều hoa nhỏ màu trắng. Nó sinh ra các quả màu đen, thuộc loại quả mọng, mọc thành cụm với đường kính khoảng 1 cm. Cây long não có thân cây chắc khỏe với vỏ cây hơi thô và có các đốm nhạt màu, bị nứt nẻ theo chiều dọc. Long não có nguồn gốc ở khu vực Đông Á, bao gồm Đài Loan, miền nam Nhật Bản, đông nam Trung Quốc và Đông Dương, tại đây người ta trồng nó để sản xuất dầu long não. Nó cũng được trồng tại khu vực ven bờ biển Đen của khu vực Kavkaz."]
+        },
+        {"tag": "Locvung",
+         "patterns": ["Cây lộc vừng là cây gì", "Thông tin về cây lộc vừng", "Cây lộc vừng", "cay loc vung" ],
+         "responses": ["Lộc vừng, còn gọi là chiếc hay lộc mưng (danh pháp khoa học: Barringtonia acutangula) là một loài thuộc chi Lộc vừng, là loài cây bản địa của các vùng đất ẩm ven biển Nam Á và Bắc Úc, từ Afghanistan đến Philippin và Queensland. Tại Đông Nam Á, loài này phân bố ở Việt Nam, Lào, Campuchia, Thái Lan. Ở Việt Nam, cây mọc khắp nơi, từ Bắc vào Nam ra tới Côn Đảo. Cây lộc vừng có thân và gốc đẹp, hoa thường màu đỏ và lá của nó có hình mác, khi nở có hương thơm, được dùng làm cây cảnh. Có người xếp lộc vừng vào bốn loại cây cảnh quý: sanh, sung, tùng, lộc."]
+        },
+        {"tag": "Daurai",
+         "patterns": ["Cây dầu rái là cây gì", "Thông tin về cây dầu rái", "Cây dầu rái", "cay dau rai" ],
+         "responses": ["Dầu rái hay dầu con rái, dầu nước (danh pháp hai phần: Dipterocarpus alatus) là loài thực vật thuộc họ Dầu. Cây dầu rái phân bố trong rừng nhiệt đới ẩm ở Campuchia, Lào, Thái Lan và Việt Nam. Tại Việt Nam, loài cây này thường quần tụ dọc bờ sông và là cây chủ yếu tại các khu rừng phục hồi dọc theo sông Đồng Nai và Vườn quốc gia Cát Tiên. Năm 2011, một quần thể cây Dầu rái quý hiếm, nguyên sinh và thuần chủng lớn nhất Việt Nam đã được phát hiện tại vườn quốc gia Phong Nha-Kẻ Bàng. Dầu rái là cây gỗ lớn, thân tròn, thẳng, cao 40 – 50 m, có thể đạt đến 70 m. Gỗ màu nâu đỏ nhạt, thớ thô, bền. Dầu rái là cây nguyên liệu chế biến sơn, vecni."]
+        },
+        {"tag": "cho",
+         "patterns": [" "],
+         "responses": ["Nhân viên của chúng tôi sẽ hổ trợ cho bạn sớm nhất. Cảm ơn bạn đã chờ đợi."]
+        }
+
+
+]
+}

@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\DATN\\django-rest-framework-master\\data\\model.tflearn"
+all_model_checkpoint_paths: "E:\\DATN\\django-rest-framework-master\\data\\model.tflearn"
